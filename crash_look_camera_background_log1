@@ -1,0 +1,87 @@
+Device : samsung GT-S5360
+Build number : DDLA1
+CPU ABI : armeabi
+Kernel version : 2.6.35.7
+Firmware version : 2.3.6
+Screen width : 240
+Screen height : 320
+
+ntation portrait
+03-25 10:32:18.804 E/ClockWidget( 4046): drawDayText
+03-25 10:32:18.804 E/ClockWidget( 4046): width= 50
+03-25 10:32:18.804 E/ClockWidget( 4046): widthText= 58.0
+03-25 10:32:18.804 E/ClockWidget( 4046): RIGHT
+03-25 10:32:18.828 W/System.err( 5529): at android.graphics.BitmapFactory.decodeFile(BitmapFactory.java:362)
+03-25 10:32:18.828 W/System.err( 5529): at org.catrobat.catroid.utils.ImageEditing.getImageDimensions(ImageEditing.java:98)
+03-25 10:32:18.828 W/System.err( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.loadPictureFromCameraIntoCatroid(LookFragment.java:588)
+03-25 10:32:18.828 W/System.err( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.onActivityResult(LookFragment.java:243)
+03-25 10:32:18.828 W/System.err( 5529): at android.support.v4.app.FragmentActivity.onActivityResult(FragmentActivity.java:152)
+03-25 10:32:18.828 W/System.err( 5529): at org.catrobat.catroid.ui.ScriptActivity.onActivityResult(ScriptActivity.java:270)
+03-25 10:32:18.828 W/System.err( 5529): at android.app.Activity.dispatchActivityResult(Activity.java:3908)
+03-25 10:32:18.828 W/System.err( 5529): at android.app.ActivityThread.deliverResults(ActivityThread.java:2532)
+03-25 10:32:18.828 W/System.err( 5529): at android.app.ActivityThread.handleSendResult(ActivityThread.java:2578)
+03-25 10:32:18.828 W/System.err( 5529): at android.app.ActivityThread.access$2000(ActivityThread.java:117)
+03-25 10:32:18.828 W/System.err( 5529): at android.app.ActivityThread$H.handleMessage(ActivityThread.java:965)
+03-25 10:32:18.828 W/System.err( 5529): at android.os.Handler.dispatchMessage(Handler.java:99)
+03-25 10:32:18.828 W/System.err( 5529): at android.os.Looper.loop(Looper.java:130)
+03-25 10:32:18.828 W/System.err( 5529): at android.app.ActivityThread.main(ActivityThread.java:3687)
+03-25 10:32:18.828 W/System.err( 5529): at java.lang.reflect.Method.invokeNative(Native Method)
+03-25 10:32:18.828 W/System.err( 5529): at java.lang.reflect.Method.invoke(Method.java:507)
+03-25 10:32:18.828 W/System.err( 5529): at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:867)
+03-25 10:32:18.828 W/System.err( 5529): at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:625)
+03-25 10:32:18.828 W/System.err( 5529): at dalvik.system.NativeStart.main(Native Method)
+03-25 10:32:18.828 W/System.err( 5529): java.io.FileNotFoundException: /mnt/sdcard/catroid/tmp/look.jpg (No such file or directory)
+03-25 10:32:18.828 W/System.err( 5529): at org.apache.harmony.luni.platform.OSFileSystem.open(Native Method)
+03-25 10:32:18.828 W/System.err( 5529): at dalvik.system.BlockGuard$WrappedFileSystem.open(BlockGuard.java:232)
+03-25 10:32:18.828 W/System.err( 5529): at java.io.FileInputStream.<init>(FileInputStream.java:80)
+03-25 10:32:18.828 W/System.err( 5529): at java.io.FileInputStream.<init>(FileInputStream.java:132)
+03-25 10:32:18.828 W/System.err( 5529): at android.graphics.BitmapFactory.decodeFile(BitmapFactory.java:362)
+03-25 10:32:18.828 W/System.err( 5529): at org.catrobat.catroid.utils.ImageEditing.getImageDimensions(ImageEditing.java:98)
+03-25 10:32:18.835 V/AudioFlinger( 1303): TrackBase::reset
+03-25 10:32:18.851 W/System.err( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.copyImageToCatroid(LookFragment.java:475)
+03-25 10:32:18.851 W/System.err( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.loadPictureFromCameraIntoCatroid(LookFragment.java:593)
+03-25 10:32:18.851 W/System.err( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.onActivityResult(LookFragment.java:243)
+03-25 10:32:18.851 W/System.err( 5529): at android.support.v4.app.FragmentActivity.onActivityResult(FragmentActivity.java:152)
+03-25 10:32:18.851 W/System.err( 5529): at org.catrobat.catroid.ui.ScriptActivity.onActivityResult(ScriptActivity.java:270)
+03-25 10:32:18.851 W/System.err( 5529): at android.app.Activity.dispatchActivityResult(Activity.java:3908)
+03-25 10:32:18.851 W/System.err( 5529): at android.app.ActivityThread.deliverResults(ActivityThread.java:2532)
+03-25 10:32:18.851 W/System.err( 5529): at android.app.ActivityThread.handleSendResult(ActivityThread.java:2578)
+03-25 10:32:18.851 W/System.err( 5529): at android.app.ActivityThread.access$2000(ActivityThread.java:117)
+03-25 10:32:18.851 W/System.err( 5529): at android.app.ActivityThread$H.handleMessage(ActivityThread.java:965)
+03-25 10:32:18.851 W/System.err( 5529): at android.os.Handler.dispatchMessage(Handler.java:99)
+03-25 10:32:18.851 W/System.err( 5529): at android.os.Looper.loop(Looper.java:130)
+03-25 10:32:18.851 W/System.err( 5529): at android.app.ActivityThread.main(ActivityThread.java:3687)
+03-25 10:32:18.851 W/System.err( 5529): at java.lang.reflect.Method.invokeNative(Native Method)
+03-25 10:32:18.851 W/System.err( 5529): at java.lang.reflect.Method.invoke(Method.java:507)
+03-25 10:32:18.851 W/System.err( 5529): at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:867)
+03-25 10:32:18.851 W/System.err( 5529): at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:625)
+03-25 10:32:18.851 W/System.err( 5529): at dalvik.system.NativeStart.main(Native Method)
+03-25 10:32:18.851 D/AndroidRuntime( 5529): Shutting down VM
+03-25 10:32:18.851 W/dalvikvm( 5529): threadid=1: thread exiting with uncaught exception (group=0x40018578)
+03-25 10:32:18.882 I/OrientationDebug( 1469): [pwm] in updateOrientationListenerLp()
+03-25 10:32:18.882 V/OrientationDebug( 1469): in updateOrientationListenerLp(), Screen status=true, current orientation=1, SensorEnabled=false
+03-25 10:32:18.882 I/OrientationDebug( 1469): [pwm] needSensorRunningLp(), return false #3
+03-25 10:32:18.882 E/AndroidRuntime( 5529): FATAL EXCEPTION: main
+03-25 10:32:18.882 E/AndroidRuntime( 5529): java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=65538, result=-1, data=Intent { act=inline-data (has extras) }} to activity {org.catrobat.catroid/org.catrobat.catroid.ui.ScriptActivity}: java.lang.NullPointerException
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.app.ActivityThread.deliverResults(ActivityThread.java:2536)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.app.ActivityThread.handleSendResult(ActivityThread.java:2578)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.app.ActivityThread.access$2000(ActivityThread.java:117)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.app.ActivityThread$H.handleMessage(ActivityThread.java:965)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.os.Handler.dispatchMessage(Handler.java:99)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.os.Looper.loop(Looper.java:130)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.app.ActivityThread.main(ActivityThread.java:3687)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at java.lang.reflect.Method.invokeNative(Native Method)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at java.lang.reflect.Method.invoke(Method.java:507)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:867)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:625)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at dalvik.system.NativeStart.main(Native Method)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): Caused by: java.lang.NullPointerException
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.copyImageToCatroid(LookFragment.java:500)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.loadPictureFromCameraIntoCatroid(LookFragment.java:593)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at org.catrobat.catroid.ui.fragment.LookFragment.onActivityResult(LookFragment.java:243)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.support.v4.app.FragmentActivity.onActivityResult(FragmentActivity.java:152)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at org.catrobat.catroid.ui.ScriptActivity.onActivityResult(ScriptActivity.java:270)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.app.Activity.dispatchActivityResult(Activity.java:3908)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): at android.app.ActivityThread.deliverResults(ActivityThread.java:2532)
+03-25 10:32:18.882 E/AndroidRuntime( 5529): ... 11 more
+03-25 10:32:18.898 D/dalvikvm( 4625): GC_CONCURRENT freed 457K, 50% free 3191K/6343K, external 590K/1102K, paused 5ms+5ms
